@@ -9,25 +9,25 @@
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
-            min-width: 1200px;
+			min-width: 1200px;
 		}
-
+		
 		header {
 			background-color: #333;
 			color: #fff;
 			padding: 30px;
 			text-align: center;
 		}
-
+		
 		section {
 			padding: 20px;
 		}
-
+		
 		h2 {
 			color: #333;
-            margin-bottom: 0px;
+			margin-bottom: 0px;
 		}
-
+		
 		nav {
 			position: fixed;
 			top: 0;
@@ -37,63 +37,63 @@
 			padding: 10px;
 			z-index: 1000;
 		}
-
+		
 		nav a {
 			margin-right: 20px;
 			text-decoration: none;
 			color: #333;
 			cursor: pointer;
 		}
-
+		
 		nav a:hover {
 			color: #666;
 		}
-        
-        .project h3 {
-            margin: 0px;
-            margin-top: 15px;
-        }
-        
-        .project h4 {
-            margin: 10px;
-            margin-top: 20px;
-        }
-        
-        .project p {
-            margin: 10px;
-            padding-left: 10px;
-        }
-        
-        .media {
-            height: 400px;
-        }
-        
-        .media-container {
-            padding: 20px;
-            text-align: center;
-        }
-        
-        .media-caption {
-            text-align: center;
-        }
-        
-        .project {
-            padding: 30px;
-            border-bottom: solid 1px;
-        }
-        
-        .description {
-            padding: 10px;
-        }
-        
+		
+		.project h3 {
+			margin: 0px;
+			margin-top: 15px;
+		}
+		
+		.project h4 {
+			margin: 10px;
+			margin-top: 20px;
+		}
+		
+		.project p {
+			margin: 10px;
+			padding-left: 10px;
+		}
+		
+		.media {
+			height: 400px;
+		}
+		
+		.media-container {
+			padding: 20px;
+			text-align: center;
+		}
+		
+		.media-caption {
+			text-align: center;
+		}
+		
+		.project {
+			padding: 30px;
+			border-bottom: solid 1px;
+		}
+		
+		.description {
+			padding: 10px;
+		}
+		
 	</style>
 </head>
 <body>
-
+	
 	<header>
 		<h1>制作物紹介</h1>
 	</header>
-
+	
 	<nav id="navbar">
 		<a href="#introduction">自己紹介</a>
 		<a href="#project1">SkyFighter</a>
@@ -101,208 +101,208 @@
 		<a href="#project3">コスモファイター</a>
 		<a href="#project4">関数プロッター</a>
 		<a href="#project5">4games</a>
-        <a href="#project6">グラフジェネレーター</a>
+		<a href="#project6">グラフジェネレーター</a>
 		<a href="#project7">ムロランクイズ</a>
-        <a href="#project8">競技プログラミング</a>
+		<a href="#project8">競技プログラミング</a>
 	</nav>
-
+	
 	<section id="introduction">
 		<h2>自己紹介</h2>
 		室蘭工業大学のkeidaiです。高校時代にプログラミングに興味を持ち、それ以来様々な制作物を作ってきました。本ページでは、その中から一部の制作物を紹介いたします。
 	</section>
-
+	
 	<section id="portfolio">
 		<h2>制作物</h2>
-
+		
 		<div class="project" id="project1">
 			<h3>SkyFighter</h3>
-            <div class="description">
-                <h4>概要</h4>
-                <p>
-                    2Dシューティングゲームです。
-                    自機のHPが0になるまでエンドレスで続きます。
-                    時間経過で難易度が上昇し、最終的なスコアを競うゲームです。
-                </p>
-                <p>
-                    制作時期：高校1年<br>
-                    制作期間：3カ月程度<br>
-                    制作人数：3人<br>
-                    使用技術：C++、Dxライブラリ
-                </p>
-                <h4>コメント</h4>
-    			<p>
-                    高校時代に一番最初に制作したゲームです。
-                    学校祭に展示することを目的として制作しました。
-                    プログラミングの楽しさを覚えるきっかけとなった作品です。
-                </p>
-                <div class="media-container">
-                    <video class="media" controls src="media/SkyFighter.mp4"></video>
-                    <div class="media-caption">プレイ映像</div>
-                </div>
-            </div>
-		</div>
-
-		<div class="project" id="project2">
-			<h3>NoteRhythm</h3>
-            <h4>概要</h4>
-            <p>
-                音楽に合わせてキーボードをたたくリズムゲームです。
-                1つの楽曲につき3つの難易度から選択して遊ぶことができます。
-            </p>
-            <p>
-                制作時期：高校2年<br>
-                制作期間：3カ月程度<br>
-                制作人数：3人<br>
-                使用技術：C++、Dxライブラリ
-            </p>
-            <h4>コメント</h4>
-			<p>
-                リズムゲームの譜面を作るツールと合わせて開発を行いました。
-                譜面や画面デザイン及びシステムの制作など、役割を決めて開発を行っていたのですが、譜面制作ツールのバグがなかなかなおらず、開発が遅れたのが苦労した点です。
-            </p>
-            <div style="display: flex; justify-content: center;">
-                <div class="media-container">
-                    <video class="media" controls src="media/NoteRhythm.mp4"></video>
-                    <div class="media-caption">プレイ映像</div>
-                </div>
-                <div class="media-container">
-                    <img class="media" src="media/NoteRhythmEditor.png">
-                    <div class="media-caption">譜面エディター画面</div>
-                </div>
-            </div>
-		</div>
-
-		<div class="project" id="project3">
-			<h3>コスモファイター</h3>
-            <h4>概要</h4>
-            <p>
-                ステージクリア型のシューティングゲームです。
-                全3ステージあります。
-                <br>
-                <a href="media/CosmoFighter.zip" download>ダウンロード</a>
-            </p>
-            <p>
-                制作時期：高校3年<br>
-                制作期間：6カ月程度<br>
-                制作人数：6人<br>
-                使用技術：C#、Unity
-            </p>
-            <h4>コメント</h4>
-			<p>
-                クラスやオブジェクト指向などの概念を学ぶことで、バラエティに富んだ複雑な動きをする敵であっても容易に実装することができました。
-                SkyFighter制作時よりも技術力が向上したことを実感できました。
-            </p>
-            <div class="media-container">
-                <video class="media" controls src="media/CosmoFighter.mp4"></video>
-                <div class="media-caption">プレイ映像</div>
-            </div>
-		</div>
-
-		<div class="project" id="project4">
-			<h3>関数プロッター</h3>
-            <h4>概要</h4>
-			<p>
-                y=f(x)の形のグラフを描画するアプリです。
-                sinやcosなどの基本的な数学的な関数を描画することができます。
-                自分でパラメータを設定して、スライドバーで値を変更することもできます。
-                <br>
-                <a href="media/CurveViewer.zip" download>ダウンロード</a>
-            </p>
-            <p>
-                制作時期：大学2年<br>
-                制作期間：1カ月程度<br>
-                制作人数：1人<br>
-                使用技術：C#、.NET Framework
-            </p>
-            <h4>コメント</h4>
-            <p>
-                大学の授業で.NET Frameworkを使用してGUIアプリを作る演習を行っていたときに、自由創作課題として制作しました。
-                当時、構文解析と呼ばれる文字列を解析するアルゴリズムについて勉強していたため、「入力した数式を読み取ってグラフを描画出来たら面白そうじゃん！」と考えて制作に至りました。
-            </p>
-            <div class="media-container">
-                <video class="media" controls src="media/CurveViewer.mp4"></video>
-                <div class="media-caption">使用映像</div>
-            </div>
-		</div>
-
-		<div class="project" id="project5">
-			<h3>4games</h3>
-            <h4>概要</h4>
-			<p>
-                4つのミニゲームを合わせたゲームです。
-                タイミングよく弾を撃つ的当てゲーム、パワーをためて岩を飛ばすゴルフのようなゲーム、障害物をよけて進むシューティングゲーム、横スクロール型アクションゲームがあります。
-                <br>
-                以下のリンクから遊べます。(制作メンバーの作品公開ページに遷移します)
-                <br>
-                <a href="https://unityroom.com/games/4gamesproject">https://unityroom.com/games/4gamesproject</a>
-            </p>
-            <p>
-                制作時期：大学2年<br>
-                制作期間：2カ月程度<br>
-                制作人数：3人<br>
-                使用技術：C#、Unity
-            </p>
-            <h4>コメント</h4>
-            <p>
-                3人がそれぞれのミニゲームを担当して作り、最後に合体させる形式で制作しました。
-                メンバーにはプログラミング初心者もおり、開発が遅れてしまったため、進捗確認を高頻度で行いフォローすべきだったという反省点があります。
-            </p>
-            <div style="display: flex; justify-content: center;">
-                <div class="media-container">
-                    <img class="media" controls src="media/4games.png">
-                    <div class="media-caption">ゲーム選択画面</div>
-                </div>
-                <div class="media-container">
-                    <img class="media" src="media/4games2.png">
-                    <div class="media-caption">横スクロールアクションプレイ画面</div>
-                </div>
-            </div>
+			<div class="description">
+				<h4>概要</h4>
+				<p>
+					2Dシューティングゲームです。
+					自機のHPが0になるまでエンドレスで続きます。
+					時間経過で難易度が上昇し、最終的なスコアを競うゲームです。
+				</p>
+				<p>
+					制作時期：高校1年<br>
+					制作期間：3カ月程度<br>
+					制作人数：3人<br>
+					使用技術：C++、Dxライブラリ
+				</p>
+				<h4>コメント</h4>
+				<p>
+					高校時代に一番最初に制作したゲームです。
+					学校祭に展示することを目的として制作しました。
+					プログラミングの楽しさを覚えるきっかけとなった作品です。
+				</p>
+				<div class="media-container">
+					<video class="media" controls src="media/SkyFighter.mp4"></video>
+					<div class="media-caption">プレイ映像</div>
+				</div>
+			</div>
 		</div>
 		
-        <div class="project" id="project6">
-			<h3>グラフジェネレーター</h3>
-            <h4>概要</h4>
-            <p>
-                離散グラフを作成するアプリです。
-            </p>
-            <p>
-                制作時期：大学3年<br>
-                制作期間：1カ月程度<br>
-                制作人数：1人<br>
-                使用技術：html、javascript
-            </p>
-            <h4>コメント</h4>
+		<div class="project" id="project2">
+			<h3>NoteRhythm</h3>
+			<h4>概要</h4>
 			<p>
-                大学の課題で離散グラフを作成しなければならない機会があり、作業を効率化するために作成しました。
-                当初予定していた機能はすべて実装できたのですが、思っていたよりも使い勝手が良いものとならず、便利なツールを作ることの大変さを実感しました。
-            </p>
-            <div class="media-container">
-                <video class="media" controls src="media/GraphGenerator.mp4"></video>
-                <div class="media-caption">使用映像</div>
-            </div>
+				音楽に合わせてキーボードをたたくリズムゲームです。
+				1つの楽曲につき3つの難易度から選択して遊ぶことができます。
+			</p>
+			<p>
+				制作時期：高校2年<br>
+				制作期間：3カ月程度<br>
+				制作人数：3人<br>
+				使用技術：C++、Dxライブラリ
+			</p>
+			<h4>コメント</h4>
+			<p>
+				リズムゲームの譜面を作るツールと合わせて開発を行いました。
+				譜面や画面デザイン及びシステムの制作など、役割を決めて開発を行っていたのですが、譜面制作ツールのバグがなかなかなおらず、開発が遅れたのが苦労した点です。
+			</p>
+			<div style="display: flex; justify-content: center;">
+				<div class="media-container">
+					<video class="media" controls src="media/NoteRhythm.mp4"></video>
+					<div class="media-caption">プレイ映像</div>
+				</div>
+				<div class="media-container">
+					<img class="media" src="media/NoteRhythmEditor.png">
+					<div class="media-caption">譜面エディター画面</div>
+				</div>
+			</div>
 		</div>
-        
+		
+		<div class="project" id="project3">
+			<h3>コスモファイター</h3>
+			<h4>概要</h4>
+			<p>
+				ステージクリア型のシューティングゲームです。
+				全3ステージあります。
+				<br>
+				<a href="media/CosmoFighter.zip" download>ダウンロード</a>
+			</p>
+			<p>
+				制作時期：高校3年<br>
+				制作期間：6カ月程度<br>
+				制作人数：6人<br>
+				使用技術：C#、Unity
+			</p>
+			<h4>コメント</h4>
+			<p>
+				クラスやオブジェクト指向などの概念を学ぶことで、バラエティに富んだ複雑な動きをする敵であっても容易に実装することができました。
+				SkyFighter制作時よりも技術力が向上したことを実感できました。
+			</p>
+			<div class="media-container">
+				<video class="media" controls src="media/CosmoFighter.mp4"></video>
+				<div class="media-caption">プレイ映像</div>
+			</div>
+		</div>
+		
+		<div class="project" id="project4">
+			<h3>関数プロッター</h3>
+			<h4>概要</h4>
+			<p>
+				y=f(x)の形のグラフを描画するアプリです。
+				sinやcosなどの基本的な数学的な関数を描画することができます。
+				自分でパラメータを設定して、スライドバーで値を変更することもできます。
+				<br>
+				<a href="media/CurveViewer.zip" download>ダウンロード</a>
+			</p>
+			<p>
+				制作時期：大学2年<br>
+				制作期間：1カ月程度<br>
+				制作人数：1人<br>
+				使用技術：C#、.NET Framework
+			</p>
+			<h4>コメント</h4>
+			<p>
+				大学の授業で.NET Frameworkを使用してGUIアプリを作る演習を行っていたときに、自由創作課題として制作しました。
+				当時、構文解析と呼ばれる文字列を解析するアルゴリズムについて勉強していたため、「入力した数式を読み取ってグラフを描画出来たら面白そうじゃん！」と考えて制作に至りました。
+			</p>
+			<div class="media-container">
+				<video class="media" controls src="media/CurveViewer.mp4"></video>
+				<div class="media-caption">使用映像</div>
+			</div>
+		</div>
+		
+		<div class="project" id="project5">
+			<h3>4games</h3>
+			<h4>概要</h4>
+			<p>
+				4つのミニゲームを合わせたゲームです。
+				タイミングよく弾を撃つ的当てゲーム、パワーをためて岩を飛ばすゴルフのようなゲーム、障害物をよけて進むシューティングゲーム、横スクロール型アクションゲームがあります。
+				<br>
+				以下のリンクから遊べます。(制作メンバーの作品公開ページに遷移します)
+				<br>
+				<a href="https://unityroom.com/games/4gamesproject">https://unityroom.com/games/4gamesproject</a>
+			</p>
+			<p>
+				制作時期：大学2年<br>
+				制作期間：2カ月程度<br>
+				制作人数：3人<br>
+				使用技術：C#、Unity
+			</p>
+			<h4>コメント</h4>
+			<p>
+				3人がそれぞれのミニゲームを担当して作り、最後に合体させる形式で制作しました。
+				メンバーにはプログラミング初心者もおり、開発が遅れてしまったため、進捗確認を高頻度で行いフォローすべきだったという反省点があります。
+			</p>
+			<div style="display: flex; justify-content: center;">
+				<div class="media-container">
+					<img class="media" controls src="media/4games.png">
+					<div class="media-caption">ゲーム選択画面</div>
+				</div>
+				<div class="media-container">
+					<img class="media" src="media/4games2.png">
+					<div class="media-caption">横スクロールアクションプレイ画面</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project" id="project6">
+			<h3>グラフジェネレーター</h3>
+			<h4>概要</h4>
+			<p>
+				離散グラフを作成するアプリです。
+			</p>
+			<p>
+				制作時期：大学3年<br>
+				制作期間：1カ月程度<br>
+				制作人数：1人<br>
+				使用技術：html、javascript
+			</p>
+			<h4>コメント</h4>
+			<p>
+				大学の課題で離散グラフを作成しなければならない機会があり、作業を効率化するために作成しました。
+				当初予定していた機能はすべて実装できたのですが、思っていたよりも使い勝手が良いものとならず、便利なツールを作ることの大変さを実感しました。
+			</p>
+			<div class="media-container">
+				<video class="media" controls src="media/GraphGenerator.mp4"></video>
+				<div class="media-caption">使用映像</div>
+			</div>
+		</div>
+		
 		<div class="project" id="project7">
 			<h3>ムロランクイズ</h3>
-            <h4>概要</h4>
-            <p>
-                室蘭に関するクイズを遊べるアプリです。
-            </p>
-            <p>
-                制作時期：大学3年<br>
-                制作期間：3カ月程度<br>
-                制作人数：5人<br>
-                使用技術：html、javascript、Python、Django
-            </p>
-            <h4>コメント</h4>
+			<h4>概要</h4>
 			<p>
-                大学のグループ課題として制作しました。
-                「室蘭に住み続けたいと思う人を増やすにはどうしたらよいか」というテーマの課題で、室蘭の魅力について楽しく知ってもらうことを目的として制作しました。
-            </p>
-            <div class="media-container">
-                <video class="media" controls src="media/MuroranQuiz.mp4"></video>
-                <div class="media-caption">プレイ映像</div>
-            </div>
+				室蘭に関するクイズを遊べるアプリです。
+			</p>
+			<p>
+				制作時期：大学3年<br>
+				制作期間：3カ月程度<br>
+				制作人数：5人<br>
+				使用技術：html、javascript、Python、Django
+			</p>
+			<h4>コメント</h4>
+			<p>
+				大学のグループ課題として制作しました。
+				「室蘭に住み続けたいと思う人を増やすにはどうしたらよいか」というテーマの課題で、室蘭の魅力について楽しく知ってもらうことを目的として制作しました。
+			</p>
+			<div class="media-container">
+				<video class="media" controls src="media/MuroranQuiz.mp4"></video>
+				<div class="media-caption">プレイ映像</div>
+			</div>
 		</div>
 	</section>
 	
@@ -312,33 +312,33 @@
 		<div class="project" id="project8">
 			<h3>競技プログラミング</h3>
 			<p>
-                毎週土曜日にAtCoderというサイト上でプログラミングコンテストに参加しています。
-                AtCoderはアルゴリズム力を競うプログラミングコンテストです。
-                現在のレートは青色で、AtCoder参加者の上位7%の実力に相当します。
-            </p>
-            <p>
-                取組期間：大学入学時～<br>
-                使用言語：主にC++、稀にPython
-            </p>
-            <div class="media-container">
-                <img class="media" controls src="media/atcoder.png">
-                <div class="media-caption">AtCoderのレート遷移</div>
-            </div>
+				毎週土曜日にAtCoderというサイト上でプログラミングコンテストに参加しています。
+				AtCoderはアルゴリズム力を競うプログラミングコンテストです。
+				現在のレートは青色で、AtCoder参加者の上位7%の実力に相当します。
+			</p>
+			<p>
+				取組期間：大学入学時～<br>
+				使用言語：主にC++、稀にPython
+			</p>
+				<div class="media-container">
+				<img class="media" controls src="media/atcoder.png">
+				<div class="media-caption">AtCoderのレート遷移</div>
+			</div>
 		</div>
 		
 	</section>
-
+	
 	<script>
 		document.querySelectorAll('nav a').forEach(anchor => {
 			anchor.addEventListener('click', function (e) {
 				e.preventDefault();
-
+				
 				document.querySelector(this.getAttribute('href')).scrollIntoView({
 					behavior: 'smooth'
 				});
 			});
 		});
 	</script>
-
+	
 </body>
 </html>
